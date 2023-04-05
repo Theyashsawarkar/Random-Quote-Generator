@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <title>Random Quotes</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Amatic+SC"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
   </head>
   <body>
-    <div id="quote-box">
-      <p class="quote">You can do anything but not everything</p>
-      <p class="source">
-        David Allen<span class="citation">Making It All Work</span
-        ><span class="year">2009</span>
-      </p>
+    <h1>Random Quote Generator</h1>
+    <div id="quote-container">
+      <p id="quote"></p>
+      <p id="author"></p>
+      <button id="get-another-quote-button">Show Another Quote</button>
     </div>
-    <button id="loadQuote">Show another quote</button>
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
