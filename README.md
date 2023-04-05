@@ -1,17 +1,34 @@
-# Random Quote Generator
+# 📜 Random Quote Generator
 
-This project is a web application that generates random quotes from an array of objects of quotes and their authors. It was built using HTML, CSS, and JavaScript.
+This is a simple web application that generates random quotes using the Quotable API.
 
-# How it Works
+# 🚀 Getting Started
 
-When the user loads the web page, a random quote is displayed along with the name of the author and the source of the quote (if available). The user can then click the "Show another quote" button to generate a new random quote.
+To get started with this project, you can simply download the code or clone the repository:
 
-# Getting Started
+[Click here to clone the repository](https://github.com/Theyashsawarkar/Random-Quote-Generator.git)
 
-To run this project locally, simply download or clone the repository to your local machine and open the index.html file in your web browser.
+Then, open the index.html file in your web browser to use the application.
 
-# Customization
+# 🎨 Features
 
-To add or remove quotes, simply edit the quotes array in the script.js file. Each quote object should include the quote and source properties, and optionally the citation and year properties.
+This application generates a random quote with the click of a button. It also has the following features:
 
-#### To customize the styling of the web page, edit the styles.css file as desired.
+Random background color: Each time a new quote is generated, the background color of the page changes to a random pastel color.
+
+Share on Twitter: Click the Twitter icon to share the current quote on Twitter.
+
+# 🛠️ Built With
+
+HTML
+CSS
+JavaScript
+jQuery
+
+# 👨‍💻 Author
+
+This project was created by Yash Sawarkar.
+
+# 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
