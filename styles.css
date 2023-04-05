@@ -1,41 +1,48 @@
+/* Set font family and center align text for the entire page */
 body {
   font-family: "Helvetica Neue", sans-serif;
   text-align: center;
 }
 
+/* Styling for the quote container */
 #quote-container {
-  width: 60%;
-  margin: 50px auto;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  width: 60%; /* Set the width of the quote container */
+  margin: 50px auto; /* Center align the container on the page and add a margin from the top */
+  padding: 20px; /* Add some padding to the container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a box shadow effect to the container */
+  border-radius: 10px; /* Add some border radius to give it a rounded edge */
 }
 
+/* Styling for the h1 element */
 h1 {
-  color: #333;
+  color: #333; /* Set the color of the text to a dark gray */
 }
 
+/* Styling for the quote text */
 #quote {
-  font-style: italic;
-  margin-top: 20px;
+  font-style: italic; /* Set the font style to italic */
+  margin-top: 20px; /* Add some margin from the top */
 }
 
+/* Styling for the author name */
 #author {
-  font-weight: bold;
-  margin-top: 10px;
+  font-weight: bold; /* Set the font weight to bold */
+  margin-top: 10px; /* Add some margin from the top */
 }
 
+/* Styling for the 'Show Another Quote' button */
 #get-another-quote-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  cursor: pointer;
+  display: inline-block; /* Display the button as an inline block element */
+  margin-top: 20px; /* Add some margin from the top */
+  padding: 10px 20px; /* Add some padding to the button */
+  background-color: #333; /* Set the background color to a dark gray */
+  color: #fff; /* Set the text color to white */
+  text-decoration: none; /* Remove any text decoration */
+  border-radius: 5px; /* Add some border radius to give it a rounded edge */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
 }
 
+/* Styling for the 'Show Another Quote' button when hovered over */
 #get-another-quote-button:hover {
-  background-color: #555;
+  background-color: #555; /* Change the background color to a slightly lighter gray when hovered over */
 }
